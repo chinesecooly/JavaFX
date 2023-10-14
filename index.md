@@ -1669,3 +1669,13 @@ Event dispatchEvent(Event event, EventDispatchChain tail)
 事件处理框架定义了事件交付的两个阶段。第一个阶段称为捕获阶段，当事件从与`EventTarget`关联的`EventDispatchChain`的第一个元素传递到最后一个元素时发生。第二阶段被称为冒泡阶段，其发生顺序与第一阶段相反。
 
 # JavaFX CSS样式属性一览
+
+
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/+esm';
+mermaid.initialize({ startOnLoad: false });
+await mermaid.run({
+  querySelector: '.language-mermaid',
+});
+</script>
+
